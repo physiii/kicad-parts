@@ -1,5 +1,37 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100K
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP OPA340DBV
+D Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
+K Ampliop
+F http://www.ti.com/lit/ds/symlink/opa4340.pdf
+$ENDCMP
+#
+$CMP OPA344NA/3K
+D CMOS Operational Amplifier, Zero-Drift Series, 1.8-V, microPower, SOT23-5
+K CMOS Ampliop
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GSD_2n7002L
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GSD_BSS84
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP USB_A_2
 D USB Type A connector
 K connector USB USB_A
