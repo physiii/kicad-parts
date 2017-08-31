@@ -17,11 +17,6 @@ K CMOS Ampliop
 F http://www.ti.com/lit/ds/symlink/opa333.pdf
 $ENDCMP
 #
-$CMP Q_NMOS_GSD
-D Transistor N-MOSFETwith substrate diode (general)
-K NMOS n-mos n-mosfet transistor
-$ENDCMP
-#
 $CMP Q_NMOS_GSD_2n7002L
 D Transistor N-MOSFETwith substrate diode (general)
 K NMOS n-mos n-mosfet transistor
