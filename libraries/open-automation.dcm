@@ -85,6 +85,11 @@ D Transistor N-MOSFETwith substrate diode (general)
 K NMOS n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP Q_NMOS_GSD_PSMN038-100YLX
+D N-Channel 100V 30A (Tc) 94.9W (Tc) Surface Mount LFPAK56, Power-SO8
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP Q_PMOS_GSD_BSS84
 D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
