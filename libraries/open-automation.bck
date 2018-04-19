@@ -54,19 +54,8 @@ K led diode
 $ENDCMP
 #
 $CMP OPA340DBV
-D Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier™ Series
-K Ampliop
-F http://www.ti.com/lit/ds/symlink/opa4340.pdf
-$ENDCMP
-#
-$CMP OPA344NA/3K
-D CMOS Operational Amplifier, Zero-Drift Series, 1.8-V, microPower, SOT23-5
-K CMOS Ampliop
-F http://www.ti.com/lit/ds/symlink/opa333.pdf
-$ENDCMP
-#
-$CMP OPA349SA/3K
 D IC OPAMP GP 70KHZ RRO SC70-5
+K CMOS Ampliop
 F https://www.digikey.com/product-detail/en/texas-instruments/OPA349SA-3K/296-14451-1-ND/552030
 $ENDCMP
 #
