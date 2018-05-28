@@ -151,6 +151,11 @@ K r res resistor
 F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747R5L/311-47.5HRCT-ND/730201
 $ENDCMP
 #
+$CMP R_8k87
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP TLV3691IDCKR
 D IC COMPARATOR NANO-POWER SC70-5
 K IC COMPARATOR NANO-POWER SC70-5
