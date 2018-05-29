@@ -755,8 +755,9 @@ ENDDEF
 DEF ESP-WROOM-32 U 0 40 Y Y 1 F N
 F0 "U" 550 -1100 60 H V C CNN
 F1 "ESP-WROOM-32" 0 800 60 H V C CNN
-F2 "" -350 600 60 H I C CNN
-F3 "" -350 600 60 H I C CNN
+F2 "open-automation:ESP-WROOM-32" -350 600 60 H I C CNN
+F3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf" -350 600 60 H I C CNN
+F4 "ESP-WROOM-32" 650 -1000 50 H I C CNN "Part Number"
 DRAW
 S 650 -1000 -700 750 0 1 8 f
 X GND 1 -900 650 200 R 50 50 1 1 I
@@ -865,13 +866,14 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED
+# LED-0603-G
 #
-DEF LED D 0 40 Y N 1 F N
+DEF LED-0603-G D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F1 "LED-0603-G" 0 -150 50 H V C CNN
+F2 "LED_SMD:LED_0603_1608Metric_Pad0.82x1.00mm_HandSolder" -100 0 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12M8WT86/511-1578-1-ND/1641810" 0 100 50 H I C CNN
+F4 "SML-D12M8WT86" 100 200 50 H I C CNN "Part Number"
 $FPLIST
  LED*
 $ENDFPLIST
@@ -1893,6 +1895,27 @@ F2 "" 0 50 60 H I C CNN
 F3 "" 0 50 60 H I C CNN
 DRAW
 S 250 150 -250 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# molex-2x4-5.7mm
+#
+DEF molex-2x4-5.7mm U 0 40 Y Y 1 F N
+F0 "U" -50 -150 50 H V C CNN
+F1 "molex-2x4-5.7mm" 0 250 50 H V C CNN
+F2 "open-automation:molex-2x4-5.7mm" 0 -400 50 H I C CNN
+F3 "https://www.digikey.com/products/en?keywords=768290008" 0 -300 50 H I C CNN
+F4 "0768290008" 0 -250 50 H I C CNN "Part Number"
+DRAW
+S 100 -200 -100 200 0 1 0 f
+X ~ 1 -200 150 100 R 50 50 1 1 I
+X ~ 2 -200 50 100 R 50 50 1 1 I
+X ~ 3 -200 -50 100 R 50 50 1 1 I
+X ~ 4 -200 -150 100 R 50 50 1 1 I
+X ~ 5 200 -150 100 L 50 50 1 1 I
+X ~ 6 200 -50 100 L 50 50 1 1 I
+X ~ 7 200 50 100 L 50 50 1 1 I
+X ~ 8 200 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
