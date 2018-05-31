@@ -155,6 +155,11 @@ K r res resistor
 F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747R5L/311-47.5HRCT-ND/730201
 $ENDCMP
 #
+$CMP R_470
+D RES SMD 10 OHM 0.1% 1/16W 0603
+K r res resistor
+$ENDCMP
+#
 $CMP R_7k15
 D Resistor
 K r res resistor
@@ -179,6 +184,18 @@ $ENDCMP
 $CMP USB_A_2
 D USB Type A connector
 K connector USB USB_A
+$ENDCMP
+#
+$CMP USB_B
+D USB Type B connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP USB_IC-CP2104
+D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
+K uart usb bridge interface transceiver
+F https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf
 $ENDCMP
 #
 #End Doc Library

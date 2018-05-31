@@ -181,4 +181,16 @@ D USB Type A connector
 K connector USB USB_A
 $ENDCMP
 #
+$CMP USB_B
+D USB Type B connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP USB_IC-CP2104
+D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
+K uart usb bridge interface transceiver
+F https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf
+$ENDCMP
+#
 #End Doc Library
