@@ -113,6 +113,11 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP R_12k
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP R_150k
 D 150k 0603 Resistor
 K r res resistor

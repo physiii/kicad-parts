@@ -113,6 +113,11 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP R_12k
+D Resistor
+K r res resistor
+$ENDCMP
+#
 $CMP R_150k
 D 150k 0603 Resistor
 K r res resistor
@@ -153,6 +158,11 @@ $CMP R_47.5k
 D RES SMD 47.5 OHM 1% 1/10W 0603
 K r res resistor
 F https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747R5L/311-47.5HRCT-ND/730201
+$ENDCMP
+#
+$CMP R_470
+D RES SMD 10 OHM 0.1% 1/16W 0603
+K r res resistor
 $ENDCMP
 #
 $CMP R_7k15
