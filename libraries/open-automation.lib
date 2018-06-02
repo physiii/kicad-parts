@@ -300,7 +300,7 @@ ENDDEF
 DEF CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" -100 50 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X02
