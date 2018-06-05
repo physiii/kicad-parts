@@ -300,7 +300,7 @@ ENDDEF
 DEF CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" -100 50 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X02
@@ -346,7 +346,7 @@ ENDDEF
 DEF CONN_01X04 P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
 F1 "CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" -100 150 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X04
@@ -430,7 +430,7 @@ ENDDEF
 DEF C_0.1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_0.1uF" -325 -100 50 H V L CNN
-F2 "Capacitors_SMD:C_0603" 100 300 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" 0 -250 50 H I C CNN
 F4 "C0603C104K5RACTU" 125 200 60 H I C CNN "Part Number"
 $FPLIST
@@ -456,6 +456,29 @@ F1 "C_1000uF" -225 -100 50 H V L CNN
 F2 "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/nichicon/UVR0J102MPD1TD/493-12738-1-ND/4328447" 0 -250 50 H I C CNN
 F4 "UVR0J102MPD1TD" 125 200 60 H I C CNN "Part Number"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100p
+#
+DEF C_100p C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_100p" 50 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/kemet/C0603C101J3GACTU/399-8980-1-ND/3522497" 0 -250 50 H I C CNN
+F4 "C0603C101J3GACTU" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -522,7 +545,7 @@ ENDDEF
 DEF C_10uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_10uF" 50 -100 50 H V L CNN
-F2 "Capacitors_SMD:C_0603" 100 300 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A106ME69D/490-10475-1-ND/5026393" 0 -250 50 H I C CNN
 F4 "GRM188R61A106ME69D" 125 200 60 H I C CNN "Part Number"
 $FPLIST
@@ -568,7 +591,7 @@ ENDDEF
 DEF C_1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_1uF" -225 -100 50 H V L CNN
-F2 "Capacitors_SMD:C_0603" 100 300 50 H I C CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V7BB105/311-1372-1-ND/2103156" 0 -250 50 H I C CNN
 F4 "CC0603ZRY5V7BB105" 125 200 60 H I C CNN "Part Number"
 $FPLIST
@@ -983,6 +1006,27 @@ X OUTPUT 1 550 150 200 L 50 50 1 1 I
 X GAIN 2 550 -50 200 L 50 50 1 1 I
 X GND 3 -550 -50 200 R 50 50 1 1 I
 X VDD 6 -550 150 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# OPA1662
+#
+DEF OPA1662 U 0 40 Y Y 1 F N
+F0 "U" 250 -250 60 H V C CNN
+F1 "OPA1662" 50 400 60 H V C CNN
+F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 100 0 60 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/texas-instruments/OPA1662AIDGKR/296-36691-1-ND/4341323" 100 0 60 H I C CNN
+F4 "OPA1662AIDGKR" 350 -150 50 H I C CNN "Part Number"
+DRAW
+S 350 350 -300 -200 0 1 0 f
+X out_A 1 -500 300 200 R 50 50 1 1 I
+X -In_A 2 -500 150 200 R 50 50 1 1 I
+X +In_A 3 -500 0 200 R 50 50 1 1 I
+X V- 4 -500 -150 200 R 50 50 1 1 I
+X +In_B 5 550 -150 200 L 50 50 1 1 I
+X -In_B 6 550 0 200 L 50 50 1 1 I
+X out_B 7 550 150 200 L 50 50 1 1 I
+X v+ 8 550 300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1412,7 +1456,7 @@ ENDDEF
 DEF R_10 R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
 F1 "R_10" -75 0 50 V V C CNN
-F2 "Resistors_SMD:R_0603" -70 0 50 V I C CNN
+F2 "Resistor_SMD:R_2512_6332Metric_Pad1.49x3.40mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF0603B10RE/A119908CT-ND/4966506" 80 0 50 V I C CNN
 F4 "CPF0603B10RE" 180 100 60 V I C CNN "Part Number"
 $FPLIST
@@ -1586,6 +1630,25 @@ F1 "R_1k" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRCT-ND/729624" 80 0 50 V I C CNN
 F4 "RC0603JR-071KL" 180 100 60 V I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 f
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_20k
+#
+DEF R_20k R 0 0 N Y 1 F N
+F0 "R" 0 0 50 V V C CNN
+F1 "R_20k" -75 0 50 V V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-0720KL/311-20KGRTR-ND/726740" 80 0 50 V I C CNN
+F4 "RC0603JR-0720KL" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
