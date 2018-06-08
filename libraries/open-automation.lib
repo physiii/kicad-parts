@@ -71,22 +71,14 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# A2235-H-dk_RF-Receivers
+# A2235-H
 #
-DEF A2235-H-dk_RF-Receivers U 0 40 Y Y 1 F N
+DEF A2235-H U 0 40 Y Y 1 F N
 F0 "U" -400 500 60 H V C CNN
-F1 "A2235-H-dk_RF-Receivers" -500 -1100 60 H V C CNN
+F1 "A2235-H" 550 -1050 60 H V C CNN
 F2 "digikey-footprints:GSM_Module_17.8x16.5mm_A2235-H" 200 200 60 H I L CNN
-F3 "http://update.maestro-wireless.com/GNSS/A2235-H/Maestro_A2135_HA2235_H_v11.pdf" 200 300 60 H I L CNN
-F4 "1530-1011-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "A2235-H" 200 500 60 H I L CNN "MPN"
-F6 "RF/IF and RFID" 200 600 60 H I L CNN "Category"
-F7 "RF Receivers" 200 700 60 H I L CNN "Family"
-F8 "http://update.maestro-wireless.com/GNSS/A2235-H/Maestro_A2135_HA2235_H_v11.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/maestro-wireless-solutions/A2235-H/1530-1011-1-ND/4898055" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "MODULE GPS SIRFSTARIV" 200 1000 60 H I L CNN "Description"
-F11 "Maestro Wireless Solutions" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
+F3 "https://www.digikey.com/product-detail/en/maestro-wireless-solutions/A2235-H/1530-1011-1-ND/4898055" 200 300 60 H I L CNN
+F4 "A2235-H" 200 500 60 H I L CNN "Part Number"
 DRAW
 S -400 400 600 -1000 0 1 0 f
 X nRST 1 -600 200 200 R 50 50 1 1 I

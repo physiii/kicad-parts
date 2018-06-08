@@ -52,6 +52,10 @@ $CMP C_4.7uF
 D 0.1uF 50V 0603 Capacitor
 $ENDCMP
 #
+$CMP C_47uF
+D 1uF 0603 Capacitor
+$ENDCMP
+#
 $CMP IRA-S210ST01
 D PIR Motion Sensor
 $ENDCMP
@@ -93,6 +97,11 @@ K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP R_1.3K
 D Resistor
 K r res resistor
 $ENDCMP
