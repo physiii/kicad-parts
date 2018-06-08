@@ -71,6 +71,50 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# A2235-H-dk_RF-Receivers
+#
+DEF A2235-H-dk_RF-Receivers U 0 40 Y Y 1 F N
+F0 "U" -400 500 60 H V C CNN
+F1 "A2235-H-dk_RF-Receivers" -500 -1100 60 H V C CNN
+F2 "digikey-footprints:GSM_Module_17.8x16.5mm_A2235-H" 200 200 60 H I L CNN
+F3 "http://update.maestro-wireless.com/GNSS/A2235-H/Maestro_A2135_HA2235_H_v11.pdf" 200 300 60 H I L CNN
+F4 "1530-1011-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "A2235-H" 200 500 60 H I L CNN "MPN"
+F6 "RF/IF and RFID" 200 600 60 H I L CNN "Category"
+F7 "RF Receivers" 200 700 60 H I L CNN "Family"
+F8 "http://update.maestro-wireless.com/GNSS/A2235-H/Maestro_A2135_HA2235_H_v11.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/maestro-wireless-solutions/A2235-H/1530-1011-1-ND/4898055" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MODULE GPS SIRFSTARIV" 200 1000 60 H I L CNN "Description"
+F11 "Maestro Wireless Solutions" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -400 400 600 -1000 0 1 0 f
+X nRST 1 -600 200 200 R 50 50 1 1 I
+X ANT_EXT 10 800 -600 200 L 50 50 1 1 B
+X VANT 11 800 -700 200 L 50 50 1 1 B
+X ANT_SW 12 -600 -100 200 R 50 50 1 1 I
+X GPIO2 13 800 -400 200 L 50 50 1 1 N
+X HOST_PORT 14 -600 -200 200 R 50 50 1 1 I
+X GPIO4 15 -600 -300 200 R 50 50 1 1 I
+X TM_GPIO5 16 800 0 200 L 50 50 1 1 O
+X GPIO1 17 800 -100 200 L 50 50 1 1 B
+X GPIO0 18 800 -200 200 L 50 50 1 1 B
+X ON_OFF 19 -600 -400 200 R 50 50 1 1 I
+X GPIO3 2 800 -300 200 L 50 50 1 1 N
+X EXTINT 20 -600 -500 200 R 50 50 1 1 I
+X TXO/SPI 21 -600 -600 200 R 50 50 1 1 O
+X RXO/SPI_DI 22 -600 -700 200 R 50 50 1 1 I
+X GND 23 300 -1200 200 U 50 50 1 1 W
+X VCC3V3 3 100 600 200 D 50 50 1 1 W
+X WAKEUP 4 800 100 200 L 50 50 1 1 O
+X VOUT 5 800 300 200 L 50 50 1 1 w
+X GND 6 100 -1200 200 U 50 50 1 1 W
+X GPIO6 7 -600 100 200 R 50 50 1 1 I
+X GPIO7 8 -600 0 200 R 50 50 1 1 I
+X GND 9 200 -1200 200 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # AGND
 #
 DEF AGND #PWR 0 0 Y Y 1 F P
@@ -387,8 +431,8 @@ DEF C_0.1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_0.1uF" -325 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
-F3 "https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" 0 -250 50 H I C CNN
-F4 "C0603C104K5RACTU" 125 200 60 H I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X8R1H104K080AB/445-8818-1-ND/3248223" 0 -250 50 H I C CNN
+F4 "C1608X8R1H104K080AB" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -502,8 +546,8 @@ DEF C_10uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_10uF" 50 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
-F3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61A106ME69D/490-10475-1-ND/5026393" 0 -250 50 H I C CNN
-F4 "GRM188R61A106ME69D" 125 200 60 H I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A106MP8NNNC/1276-1871-1-ND/3889957" 0 -250 50 H I C CNN
+F4 "CL10A106MP8NNNC" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -548,8 +592,8 @@ DEF C_1uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_1uF" -225 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
-F3 "https://www.digikey.com/product-detail/en/yageo/CC0603ZRY5V7BB105/311-1372-1-ND/2103156" 0 -250 50 H I C CNN
-F4 "CC0603ZRY5V7BB105" 125 200 60 H I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA3E1X7R1C105M080AC/445-12540-1-ND/3954206" 0 -250 50 H I C CNN
+F4 "CGA3E1X7R1C105M080AC" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -617,8 +661,31 @@ DEF C_4.7uF C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "C_4.7uF" -325 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
-F3 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10B475KQ8NQNC/1276-2087-1-ND/3890173" 0 -250 50 H I C CNN
-F4 "CL10B475KQ8NQNC" 125 200 60 H I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X7S0J475K080AC/445-9120-1-ND/3661604" 0 -250 50 H I C CNN
+F4 "C1608X7S0J475K080AC" 125 200 60 H I C CNN "Part Number"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_47uF
+#
+DEF C_47uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_47uF" -225 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R60G476ME15D/490-13246-1-ND/5877454" 0 -250 50 H I C CNN
+F4 "GRM188R60G476ME15D" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -774,42 +841,6 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GPS-A2235-H
-#
-DEF GPS-A2235-H U 0 40 Y Y 1 F N
-F0 "U" -400 500 60 H V C CNN
-F1 "GPS-A2235-H" -350 -1050 60 H V C CNN
-F2 "digikey-footprints:GSM_Module_17.8x16.5mm_A2235-H" 200 200 60 H I L CNN
-F3 "https://www.digikey.com/product-detail/en/maestro-wireless-solutions/A2235-H/1530-1011-1-ND/4898055" 200 300 60 H I L CNN
-F4 "A2235-H" 200 500 60 H I L CNN "Part Number"
-DRAW
-S -400 400 600 -1000 0 1 0 f
-X nRST 1 -600 200 200 R 50 50 1 1 I
-X ANT_EXT 10 800 -600 200 L 50 50 1 1 B
-X VANT 11 800 -700 200 L 50 50 1 1 B
-X ANT_SW 12 -600 -100 200 R 50 50 1 1 I
-X GPIO2 13 800 -400 200 L 50 50 1 1 N
-X HOST_PORT 14 -600 -200 200 R 50 50 1 1 I
-X GPIO4 15 -600 -300 200 R 50 50 1 1 I
-X TM_GPIO5 16 800 0 200 L 50 50 1 1 O
-X GPIO1 17 800 -100 200 L 50 50 1 1 B
-X GPIO0 18 800 -200 200 L 50 50 1 1 B
-X ON_OFF 19 -600 -400 200 R 50 50 1 1 I
-X GPIO3 2 800 -300 200 L 50 50 1 1 N
-X EXTINT 20 -600 -500 200 R 50 50 1 1 I
-X TXO/SPI 21 -600 -600 200 R 50 50 1 1 O
-X RXO/SPI_DI 22 -600 -700 200 R 50 50 1 1 I
-X GND 23 300 -1200 200 U 50 50 1 1 W
-X VCC3V3 3 100 600 200 D 50 50 1 1 W
-X WAKEUP 4 800 100 200 L 50 50 1 1 O
-X VOUT 5 800 300 200 L 50 50 1 1 w
-X GND 6 100 -1200 200 U 50 50 1 1 W
-X GPIO6 7 -600 100 200 R 50 50 1 1 I
-X GPIO7 8 -600 0 200 R 50 50 1 1 I
-X GND 9 200 -1200 200 U 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # HDC1010
 #
 DEF HDC1010 U 0 40 Y Y 1 F N
@@ -907,8 +938,9 @@ ENDDEF
 DEF LM2576 U 0 40 Y Y 1 F N
 F0 "U" 350 200 60 H V C CNN
 F1 "LM2576" 50 -200 60 H V C CNN
-F2 "" 400 -50 60 H I C CNN
-F3 "" 400 -50 60 H I C CNN
+F2 "open-automation:Regulator-LM2576" 400 -50 60 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/microchip-technology/MIC4576WU-TR/576-1219-1-ND/771872" 400 -50 60 H I C CNN
+F4 "MIC4576WU-TR" 450 300 50 H V C CNN "Part Number"
 DRAW
 S 400 150 -300 -150 0 1 0 f
 X Vin 1 -500 100 200 R 50 50 1 1 I
@@ -1160,8 +1192,8 @@ DEF Power-Monitor-INA219 U 0 40 Y Y 1 F N
 F0 "U" 200 -250 60 H V C CNN
 F1 "Power-Monitor-INA219" 25 300 60 H V C CNN
 F2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" 100 -350 60 H I C CNN
-F3 "https://www.digikey.com/product-detail/en/texas-instruments/INA219AIDCNR/296-23770-1-ND/1952550" 200 -250 60 H I C CNN
-F4 "INA219AIDCNR" 300 -150 60 H I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/texas-instruments/INA219AIDCNT/296-26073-1-ND/2254846" 200 -250 60 H I C CNN
+F4 "INA219AIDCNT" 300 -150 60 H I C CNN "Part Number"
 DRAW
 S -275 200 250 -200 0 1 0 f
 X IN+ 1 -475 50 200 R 50 50 1 1 I
@@ -1276,8 +1308,9 @@ ENDDEF
 DEF Q_NPN_BEC Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_BEC" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/on-semiconductor/KST10MTF/KST10MTFCT-ND/965649" 200 50 50 H I C CNN
+F4 "KST10MTF" 300 150 50 H I C CNN "Part Number"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -1443,14 +1476,33 @@ X B_a 6 500 150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# R_1.3K
+#
+DEF R_1.3K R 0 0 N Y 1 F N
+F0 "R" 0 0 50 V V C CNN
+F1 "R_1.3K" -200 0 50 V V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/yageo/RT0603BRD071K3L/YAG1565CT-ND/5139013" 80 0 50 V I C CNN
+F4 "RT0603BRD071K3L" 180 100 60 V I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 f
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_10
 #
 DEF R_10 R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
 F1 "R_10" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_2512_6332Metric_Pad1.49x3.40mm_HandSolder" -70 0 50 V I C CNN
-F3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF0603B10RE/A119908CT-ND/4966506" 80 0 50 V I C CNN
-F4 "CPF0603B10RE" 180 100 60 V I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/bourns-inc/CRT0603-BY-10R0ELF/CRT0603-BY-10R0ELFCT-ND/1775043" 80 0 50 V I C CNN
+F4 "CRT0603-BY-10R0ELF" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -1620,8 +1672,8 @@ DEF R_1k R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
 F1 "R_1k" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
-F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-071KL/311-1.0KGRCT-ND/729624" 80 0 50 V I C CNN
-F4 "RC0603JR-071KL" 180 100 60 V I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ102V/P1.0KGDKR-ND/577615" 80 0 50 V I C CNN
+F4 "ERJ-3GEYJ102V" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -1747,6 +1799,25 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_4K7
+#
+DEF R_4K7 R 0 0 N Y 1 F N
+F0 "R" -25 0 50 H V C CNN
+F1 "R_4K7" -25 -100 50 H V C CNN
+F2 "Resistors_SMD:R_2512_HandSoldering" -25 -175 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ472V/P4.7KGCT-ND/135199" 0 -250 50 H I C CNN
+F4 "ERJ-3GEYJ472V" 0 75 60 H I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S 75 -40 -125 40 0 1 10 f
+X ~ 1 -175 0 50 R 50 50 1 1 P
+X ~ 2 125 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_7k15
 #
 DEF R_7k15 R 0 0 N Y 1 F N
@@ -1754,7 +1825,7 @@ F0 "R" 0 0 50 V V C CNN
 F1 "R_7k15" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/vishay-dale/CRCW06037K15FKEA/541-7.15KHCT-ND/1179907" 80 0 50 V I C CNN
-F4 "CRCW06037K15FKEA" 180 100 60 V I C CNN "Part Number"
+F4 "CRCW06037K15FKEA" 180 100 0 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -1773,7 +1844,7 @@ F0 "R" 0 0 50 V V C CNN
 F1 "R_8k87" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2RKF8871X/P8.87KLCT-ND/194529" 80 0 50 V I C CNN
-F4 "RC0603JR-0710KL" 180 100 60 V I C CNN "Part Number"
+F4 "ERJ-2RKF8871X" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
