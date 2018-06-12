@@ -1601,6 +1601,25 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# R_150
+#
+DEF R_150 R 0 0 N Y 1 F N
+F0 "R" 0 0 50 V V C CNN
+F1 "R_150" -75 -25 50 V V C CNN
+F2 "Resistors_SMD:R_0603" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD150R/RNCP0603FTD150RCT-ND/2240427" 80 0 50 V I C CNN
+F4 "RNCP0603FTD150R" 180 100 60 V I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 f
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # R_150k
 #
 DEF R_150k R 0 0 N Y 1 F N
@@ -1739,7 +1758,7 @@ ENDDEF
 DEF R_47.5 R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
 F1 "R_47.5" -75 0 50 V V C CNN
-F2 "Resistors_SMD:R_0603" -70 0 50 V I C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747R5L/311-47.5HRCT-ND/730201" 80 0 50 V I C CNN
 F4 "RC0603FR-0747R5L" 180 100 60 V I C CNN "Part Number"
 $FPLIST
@@ -1759,8 +1778,8 @@ DEF R_47.5k R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
 F1 "R_47.5k" -75 0 50 V V C CNN
 F2 "Resistors_SMD:R_0603" -70 0 50 V I C CNN
-F3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747R5L/311-47.5HRCT-ND/730201" 80 0 50 V I C CNN
-F4 "RC0603FR-0747R5L" 180 100 60 V I C CNN "Part Number"
+F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF4752V/P47.5KHCT-ND/198404" 80 0 50 V I C CNN
+F4 "ERJ-3EKF4752V" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
