@@ -485,7 +485,7 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_0.1uF" -325 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X8R1H104K080AB/445-8818-1-ND/3248223" 0 -250 50 H I C CNN
-F4 "C1608X8R1H104K080AB" 125 200 60 H I C CNN "Part Number"
+F4 "CL10F104ZO8NNNC" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -646,7 +646,7 @@ F0 "C" 25 100 50 H V L CNN
 F1 "C_1uF" -225 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA3E1X7R1C105M080AC/445-12540-1-ND/3954206" 0 -250 50 H I C CNN
-F4 "CGA3E1X7R1C105M080AC" 125 200 60 H I C CNN "Part Number"
+F4 "CL10B105KP8NNNC" 125 200 60 H I C CNN "Part Number"
 $FPLIST
  C?
  C_????_*
@@ -1616,7 +1616,7 @@ F0 "Q" 200 50 50 H V L CNN
 F1 "Q_NPN_BEC" 200 -50 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 100 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/on-semiconductor/KST10MTF/KST10MTFCT-ND/965649" 200 50 50 H I C CNN
-F4 "KST10MTF" 300 150 50 H I C CNN "Part Number"
+F4 "MMBT3904-TP" 300 150 50 H I C CNN "Part Number"
 DRAW
 C 50 0 111 0 1 10 N
 P 2 0 1 0 25 25 100 100 N
@@ -1808,7 +1808,7 @@ F0 "R" 0 0 50 V V C CNN
 F1 "R_100k" -75 0 50 V V C CNN
 F2 "Resistors_SMD:R_0603" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100KL/311-100KGRCT-ND/729645" 80 0 50 V I C CNN
-F4 "RC0603JR-07100KL" 180 100 60 V I C CNN "Part Number"
+F4 "ERA-3AEB104V" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -1846,7 +1846,7 @@ F0 "R" 0 0 50 V V C CNN
 F1 "R_10k" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647" 80 0 50 V I C CNN
-F4 "RC0603JR-0710KL" 180 100 60 V I C CNN "Part Number"
+F4 "MCT06030C1002FP500" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -1979,7 +1979,7 @@ F0 "R" 0 0 50 V V C CNN
 F1 "R_1k" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ102V/P1.0KGDKR-ND/577615" 80 0 50 V I C CNN
-F4 "ERJ-3GEYJ102V" 180 100 60 V I C CNN "Part Number"
+F4 "ESR03EZPJ102" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -2055,7 +2055,7 @@ F0 "R" 80 0 50 V V C CNN
 F1 "R_2k" 0 0 50 V V C CNN
 F2 "Resistors_SMD:R_0603" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-072KL/311-2.0KGRCT-ND/729673" 80 0 50 V I C CNN
-F4 "RC0603JR-072KL" 180 100 60 V I C CNN "Part Number"
+F4 "ERA-3AEB202V" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -2093,7 +2093,7 @@ F0 "R" 0 0 50 V V C CNN
 F1 "R_47.5" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747R5L/311-47.5HRCT-ND/730201" 80 0 50 V I C CNN
-F4 "RC0603FR-0747R5L" 180 100 60 V I C CNN "Part Number"
+F4 "ERJ-3EKF47R5V" 180 100 60 V I C CNN "Part Number"
 $FPLIST
  R_*
  R_*
@@ -2552,6 +2552,7 @@ S -250 150 200 -150 0 1 0 f
 X Vin 1 -400 100 150 R 50 50 1 1 W
 X Vout 2 350 0 150 L 50 50 1 1 I
 X GND 3 -400 -100 150 R 50 50 1 1 C
+X vin 4 0 250 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -10,6 +10,60 @@ D single battery cell
 K battery cell
 $ENDCMP
 #
+$CMP A1101ELHL
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1101LLHL
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1102ELHL
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1102LLHL
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1103ELHL
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1103LLHL
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1104LLHL
+D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP A1106LLHL
+D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C
+K hall switch
+F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+$ENDCMP
+#
+$CMP BQ24259
+D 1kB + 128B Flash, 128B RAM, QFN-24
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f1101a.pdf
+$ENDCMP
+#
 $CMP C_0.1uF
 D 0.1uF 50V 0603 Capacitor
 $ENDCMP
@@ -40,6 +94,10 @@ $CMP C_1uF
 D 1uF 0603 Capacitor
 $ENDCMP
 #
+$CMP C_2.2uF
+D 33uF 16V 0805 Capacitor
+$ENDCMP
+#
 $CMP C_330pF
 D 330pF 50V 0603 Capacitor
 $ENDCMP
@@ -48,12 +106,30 @@ $CMP C_33uF
 D 33uF 16V 0805 Capacitor
 $ENDCMP
 #
+$CMP C_390uf
+D 330pF 50V 0603 Capacitor
+$ENDCMP
+#
 $CMP C_4.7uF
+D 0.1uF 50V 0603 Capacitor
+$ENDCMP
+#
+$CMP C_47nF
 D 0.1uF 50V 0603 Capacitor
 $ENDCMP
 #
 $CMP C_47uF
 D 1uF 0603 Capacitor
+$ENDCMP
+#
+$CMP C_8.2uF
+D 1uF 0603 Capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
 $ENDCMP
 #
 $CMP IRA-S210ST01
@@ -63,6 +139,18 @@ $ENDCMP
 $CMP LED-GREEN-LTST-C191GKT
 D LED generic
 K led diode
+$ENDCMP
+#
+$CMP MSP430F1111AIRGE_0
+D 2kB + 256B Flash, 128B RAM, QFN-24
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f1111a.pdf
+$ENDCMP
+#
+$CMP MSP430F1121AIRGE_0
+D 4kB + 256B Flash, 256B RAM, QFN-24
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f1121a.pdf
 $ENDCMP
 #
 $CMP OPA340DBV
@@ -103,11 +191,6 @@ $ENDCMP
 #
 $CMP R_1.3K
 D Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP R_10
-D RES SMD 10 OHM 0.1% 1/16W 0603
 K r res resistor
 $ENDCMP
 #
@@ -153,6 +236,16 @@ $ENDCMP
 #
 $CMP R_1k
 D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP R_2.2
+D RES SMD 10 OHM 0.1% 1/16W 0603
+K r res resistor
+$ENDCMP
+#
+$CMP R_2.2K
+D RES SMD 10 OHM 0.1% 1/16W 0603
 K r res resistor
 $ENDCMP
 #
