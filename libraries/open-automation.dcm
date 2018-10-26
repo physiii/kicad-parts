@@ -95,10 +95,6 @@ D 1uF 0603 Capacitor
 $ENDCMP
 #
 $CMP C_2.2uF
-D 33uF 16V 0805 Capacitor
-$ENDCMP
-#
-$CMP C_330pF
 D 330pF 50V 0603 Capacitor
 $ENDCMP
 #
@@ -225,7 +221,7 @@ K r res resistor
 $ENDCMP
 #
 $CMP R_15M
-D 15M 0603 Resistor
+D Resistor
 K r res resistor
 $ENDCMP
 #
