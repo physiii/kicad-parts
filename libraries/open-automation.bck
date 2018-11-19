@@ -95,10 +95,6 @@ D 1uF 0603 Capacitor
 $ENDCMP
 #
 $CMP C_2.2uF
-D 33uF 16V 0805 Capacitor
-$ENDCMP
-#
-$CMP C_330pF
 D 330pF 50V 0603 Capacitor
 $ENDCMP
 #
@@ -130,6 +126,12 @@ $CMP D
 D Diode
 K diode
 F ~
+$ENDCMP
+#
+$CMP H11AA1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125, UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125
+F http://www.vishay.com/docs/83675/sfh620a.pdf
 $ENDCMP
 #
 $CMP IRA-S210ST01
@@ -225,11 +227,6 @@ K r res resistor
 $ENDCMP
 #
 $CMP R_15M
-D 15M 0603 Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP R_1M
 D Resistor
 K r res resistor
 $ENDCMP
@@ -294,6 +291,36 @@ $ENDCMP
 $CMP R_8k87
 D Resistor
 K r res resistor
+$ENDCMP
+#
+$CMP SFH620A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125 VDE, UL, CUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 VDE, UL, CUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320 UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320 VDE, UL, CUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
 $ENDCMP
 #
 $CMP TLV3691IDCKR
