@@ -1,3 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP COAX-AUTO
+D 50 Ohms Automative Coax - Detail Z
+F https://www.mouser.com/ProductDetail/TE-Connectivity/638817-4?qs=sGAEpiMZZMuLQf%252BEuFsOrg13rQmhiDiQDoRLLQMK5p8%3D
+$ENDCMP
+#
+$CMP LM1972
+F http://www.ti.com/lit/ds/symlink/lm1972.pdf
+$ENDCMP
+#
+$CMP MAX98091
+D IC CODEC STEREO AUDIO 48TQFN
+F https://www.digikey.com/product-detail/en/maxim-integrated/MAX98091ETM/MAX98091ETM-ND/5049990
+$ENDCMP
+#
+$CMP TDA7851F
+D 4 x 48 W MOSFET quad bridge power amplifier
+F https://www.digikey.com/product-detail/en/stmicroelectronics/TDA7851F/497-11760-5-ND/2214752
+$ENDCMP
+#
+$CMP TE-AUTO-CONN-52
+D Using adapter board with 2098978-1
+F https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/2098978-1?qs=sGAEpiMZZMs7eK6h2EBtKpfjTZYxfnESj8gtjNM%252Bntw%3D
+$ENDCMP
+#
+$CMP USB-AUTO
+F https://www.digikey.com/product-detail/en/molex/49616-0715/WM17536-ND/1991400
+$ENDCMP
+#
 #End Doc Library
