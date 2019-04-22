@@ -1,8 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AudioJack4_T2RS
+D Audio Jack, 4 Poles (TRRS)
+K audio jack receptacle stereo headphones TRRS connector
+F ~
+$ENDCMP
+#
 $CMP COAX-AUTO
 D 50 Ohms Automative Coax - Detail Z
 F https://www.mouser.com/ProductDetail/TE-Connectivity/638817-4?qs=sGAEpiMZZMuLQf%252BEuFsOrg13rQmhiDiQDoRLLQMK5p8%3D
+$ENDCMP
+#
+$CMP C_0.470uF
+F https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B474KA8NFNC/1276-2082-1-ND/3890168
+$ENDCMP
+#
+$CMP C_10uF_Ta
+D Polarized capacitor
+K cap capacitor
+F https://www.digikey.com/product-detail/en/avx-corporation/TRJC106K035R0600/478-7582-1-ND/3660372
+$ENDCMP
+#
+$CMP C_10uF_Ta-del
+D 10µF Molded Tantalum Capacitors 35V 2312 (6032 Metric) 600mOhm
+F https://www.digikey.com/product-detail/en/avx-corporation/TRJC106K035R0600/478-7582-1-ND/3660372
 $ENDCMP
 #
 $CMP LM1972
@@ -12,6 +33,17 @@ $ENDCMP
 $CMP MAX98091
 D IC CODEC STEREO AUDIO 48TQFN
 F https://www.digikey.com/product-detail/en/maxim-integrated/MAX98091ETM/MAX98091ETM-ND/5049990
+$ENDCMP
+#
+$CMP MIC29302WU
+D High  current,high  accuracy,  low  dropout  voltage  regulators
+F https://www.digikey.com/product-detail/en/microchip-technology/MIC29302WU/576-3369-5-ND/1029125
+$ENDCMP
+#
+$CMP R_6.5k
+D 6.49 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
+K Resistors, Chip Resistor
+F https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT6K49/RMCF0603FT6K49CT-ND/1943043
 $ENDCMP
 #
 $CMP TDA7851F
