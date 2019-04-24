@@ -1,18 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AudioJack4_T2RS
-D Audio Jack, 4 Poles (TRRS)
-K audio jack receptacle stereo headphones TRRS connector
-F ~
+$CMP ACS711
+F https://www.digikey.com/product-detail/en/allegro-microsystems-llc/ACS711KEXLT-15AB-T/620-1483-1-ND/3868192
 $ENDCMP
 #
-$CMP COAX-AUTO
+$CMP ANTENNA-COAX-AUTO
 D 50 Ohms Automative Coax - Detail Z
 F https://www.mouser.com/ProductDetail/TE-Connectivity/638817-4?qs=sGAEpiMZZMuLQf%252BEuFsOrg13rQmhiDiQDoRLLQMK5p8%3D
 $ENDCMP
 #
+$CMP AudioJack4_TTRS
+D Audio Jack, 4 Poles (TTRS)
+K 2.50mm (0.094", 3/32", Sub Mini, Miniature) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder
+F https://www.cui.com/product/resource/sj1-2503a.pdf
+$ENDCMP
+#
+$CMP Barrel_Jack_OD5.5_ID2.5
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F https://www.cui.com/product/resource/pj-202b.pdf
+$ENDCMP
+#
 $CMP C_0.470uF
 F https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B474KA8NFNC/1276-2082-1-ND/3890168
+$ENDCMP
+#
+$CMP C_1000uF
+F https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1E102
 $ENDCMP
 #
 $CMP C_10uF_Ta
@@ -24,6 +38,12 @@ $ENDCMP
 $CMP C_10uF_Ta-del
 D 10µF Molded Tantalum Capacitors 35V 2312 (6032 Metric) 600mOhm
 F https://www.digikey.com/product-detail/en/avx-corporation/TRJC106K035R0600/478-7582-1-ND/3660372
+$ENDCMP
+#
+$CMP FT231XS
+D Full Speed USB to Full Handshake UART, SSOP-20
+K FTDI USB UART interface converter
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
 $CMP LM1972
@@ -38,6 +58,21 @@ $ENDCMP
 $CMP MIC29302WU
 D High  current,high  accuracy,  low  dropout  voltage  regulators
 F https://www.digikey.com/product-detail/en/microchip-technology/MIC29302WU/576-3369-5-ND/1029125
+$ENDCMP
+#
+$CMP RCA-PJRAN1X1U04X
+D Audio Jack, 3 Poles (Stereo / TRS)
+K audio jack receptacle stereo headphones phones TRS connector
+F http://www.switchcraft.com/Drawings/pjran1x1u__x_series_cd.pdf
+$ENDCMP
+#
+$CMP RDA5807M
+D SINGLE-CHIP BROADCAST FM RADIO TUNER
+F http://cxem.net/tuner/files/tuner84_RDA5807M_datasheet_v1.pdf
+$ENDCMP
+#
+$CMP R_4K7
+F https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/thick-film-chip-resistors/ERJ3GEYJ472V
 $ENDCMP
 #
 $CMP R_6.5k
@@ -58,6 +93,10 @@ $ENDCMP
 #
 $CMP USB-AUTO
 F https://www.digikey.com/product-detail/en/molex/49616-0715/WM17536-ND/1991400
+$ENDCMP
+#
+$CMP USB_MINI_B
+F https://www.molex.com/pdm_docs/sd/548190519_sd.pdf
 $ENDCMP
 #
 #End Doc Library
