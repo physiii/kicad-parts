@@ -16,9 +16,15 @@ F https://www.cui.com/product/resource/sj1-2503a.pdf
 $ENDCMP
 #
 $CMP Barrel_Jack_OD5.5_ID2.5
-D DC Barrel Jack with an internal switch
+D Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Through Hole, Right Angle
 K DC power barrel jack connector
 F https://www.cui.com/product/resource/pj-202b.pdf
+$ENDCMP
+#
+$CMP CLAMP-SP0502BAHT
+D TVS DIODE 5.5V 8.5V SOT23-3
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 $ENDCMP
 #
 $CMP C_0.470uF
@@ -40,10 +46,34 @@ D 10µF Molded Tantalum Capacitors 35V 2312 (6032 Metric) 600mOhm
 F https://www.digikey.com/product-detail/en/avx-corporation/TRJC106K035R0600/478-7582-1-ND/3660372
 $ENDCMP
 #
+$CMP C_1uF
+D 1µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+F https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us
+$ENDCMP
+#
+$CMP C_47pF
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A470FA16-01.pdf
+$ENDCMP
+#
+$CMP C_560pF
+F https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B561KB8NNNC/1276-1278-1-ND/3889364
+$ENDCMP
+#
+$CMP D_Zener
+D  42.1V Clamp 14.9A Ipp Tvs Diode Surface Mount SMB (DO-214AA)
+K diode
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/19/78/91/39/07/cd/40/65/CD00001366.pdf/files/CD00001366.pdf/_jcr_content/translations/en.CD00001366.pdf
+$ENDCMP
+#
 $CMP FT231XS
 D Full Speed USB to Full Handshake UART, SSOP-20
 K FTDI USB UART interface converter
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+$ENDCMP
+#
+$CMP LED_G
+D Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)
+F https://katalog.we-online.de/led/datasheet/150060VS75000.pdf
 $ENDCMP
 #
 $CMP LM1972
@@ -60,6 +90,12 @@ D High  current,high  accuracy,  low  dropout  voltage  regulators
 F https://www.digikey.com/product-detail/en/microchip-technology/MIC29302WU/576-3369-5-ND/1029125
 $ENDCMP
 #
+$CMP PESD1CAN-UX
+D TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
+$ENDCMP
+#
 $CMP RCA-PJRAN1X1U04X
 D Audio Jack, 3 Poles (Stereo / TRS)
 K audio jack receptacle stereo headphones phones TRS connector
@@ -69,6 +105,11 @@ $ENDCMP
 $CMP RDA5807M
 D SINGLE-CHIP BROADCAST FM RADIO TUNER
 F http://cxem.net/tuner/files/tuner84_RDA5807M_datasheet_v1.pdf
+$ENDCMP
+#
+$CMP R_100
+D 100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
 $ENDCMP
 #
 $CMP R_4K7
@@ -81,9 +122,14 @@ K Resistors, Chip Resistor
 F https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT6K49/RMCF0603FT6K49CT-ND/1943043
 $ENDCMP
 #
+$CMP SW_PUSH
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+F https://www.ckswitches.com/media/1479/kmr2.pdf
+$ENDCMP
+#
 $CMP TDA7851F
 D 4 x 48 W MOSFET quad bridge power amplifier
-F https://www.digikey.com/product-detail/en/stmicroelectronics/TDA7851F/497-11760-5-ND/2214752
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/04/31/d3/4a/29/2a/41/b6/CD00278573.pdf/files/CD00278573.pdf/jcr:content/translations/en.CD00278573.pdf
 $ENDCMP
 #
 $CMP TE-AUTO-CONN-52
