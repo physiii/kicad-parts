@@ -9,10 +9,15 @@ D 50 Ohms Automative Coax - Detail Z
 F https://www.mouser.com/ProductDetail/TE-Connectivity/638817-4?qs=sGAEpiMZZMuLQf%252BEuFsOrg13rQmhiDiQDoRLLQMK5p8%3D
 $ENDCMP
 #
-$CMP AudioJack4_TTRS
+$CMP Adapter-TE-52
+D Using adapter board with 2098978-1
+F https://www.mouser.com/datasheet/2/418/NG_CD_2098978_D1-790821.pdf
+$ENDCMP
+#
+$CMP AudioJack_3.5TRS
 D Audio Jack, 4 Poles (TTRS)
 K 2.50mm (0.094", 3/32", Sub Mini, Miniature) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder
-F https://www.cui.com/product/resource/sj1-2503a.pdf
+F https://www.cui.com/product/resource/sj1-352xn-series.pdf
 $ENDCMP
 #
 $CMP Barrel_Jack_OD5.5_ID2.5
@@ -57,6 +62,11 @@ $ENDCMP
 #
 $CMP C_560pF
 F https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B561KB8NNNC/1276-1278-1-ND/3889364
+$ENDCMP
+#
+$CMP Coax_U.FL
+D U.FL (UMCC), AMC4 Connector Jack, Male Pin 50Ohm Surface Mount Solder
+F https://www.amphenolrf.com/downloads/dl/file/id/8661/product/9127/a_4ja_customer_drawing.pdf
 $ENDCMP
 #
 $CMP D_Zener
