@@ -18,10 +18,6 @@ K diode Schottky
 F http://www.vishay.com/docs/88525/1n5817.pdf
 $ENDCMP
 #
-$CMP ACS711
-F https://www.digikey.com/product-detail/en/allegro-microsystems-llc/ACS711KEXLT-15AB-T/620-1483-1-ND/3868192
-$ENDCMP
-#
 $CMP ANTENNA-COAX-AUTO
 D 50 Ohms Automative Coax - Detail Z
 F https://www.mouser.com/ProductDetail/TE-Connectivity/638817-4?qs=sGAEpiMZZMuLQf%252BEuFsOrg13rQmhiDiQDoRLLQMK5p8%3D
@@ -36,6 +32,10 @@ $CMP AudioJack_3.5TRS
 D Audio Jack, 4 Poles (TTRS)
 K 2.50mm (0.094", 3/32", Sub Mini, Miniature) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder
 F https://www.cui.com/product/resource/sj1-352xn-series.pdf
+$ENDCMP
+#
+$CMP BSS84
+F https://www.mouser.com/datasheet/2/115/ds30149-255531.pdf
 $ENDCMP
 #
 $CMP Barrel_Jack_OD5.5_ID2.5
@@ -129,6 +129,10 @@ $ENDCMP
 #
 $CMP LM1972
 F http://www.ti.com/lit/ds/symlink/lm1972.pdf
+$ENDCMP
+#
+$CMP MAX11605
+F https://datasheets.maximintegrated.com/en/ds/MAX11600-MAX11605.pdf
 $ENDCMP
 #
 $CMP MAX98091
