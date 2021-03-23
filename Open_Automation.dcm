@@ -18,16 +18,16 @@ K diode Schottky
 F http://www.vishay.com/docs/88525/1n5817.pdf
 $ENDCMP
 #
-$CMP ACS711
-D ±15A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 90mV/A, QFN-12
-K hall effect current monitor sensor isolated
-F https://datasheet.lcsc.com/szlcsc/Allegro-MicroSystems-LLC-ACS711KEXLT-15AB-T_C150824.pdf
+$CMP ADC_ADS1015
+D ANALOG TO DIGITAL CONVERTERS (ADCS) 16 860 2,4 I2C 2V~5.5V MSOP-10 ROHS
+K 12 bit 4 channel I2C ADC
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-ADS1115IDGSR_C37593.pdf
 $ENDCMP
 #
-$CMP ACS711xEXLT-31AB
-D ±31A Bidirectional, Hall-Effect Current Sensor, +3.3V supply, 45mV/A, QFN-12
-K hall effect current monitor sensor isolated
-F http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx
+$CMP ADS1115IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
 $ENDCMP
 #
 $CMP AI-3035
@@ -50,6 +50,42 @@ $CMP AudioJack_3.5TRS
 D Audio Jack, 4 Poles (TTRS)
 K 2.50mm (0.094", 3/32", Sub Mini, Miniature) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder
 F https://www.cui.com/product/resource/sj1-352xn-series.pdf
+$ENDCMP
+#
+$CMP Audio_Transformer
+D Toroidal Transformer Isolator audio-frequency 600 : 600, Audio isolation transformer 1:1, Toroidal with 5 pins
+K transformer coil magnet
+F https://www.aliexpress.com/item/32692812269.html?spm=a2g0s.9042311.0.0.27424c4dWqQRwl
+$ENDCMP
+#
+$CMP BAS16
+D 120V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Hottech-BAS16_C181107.pdf
+$ENDCMP
+#
+$CMP BAS20
+D 200V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
+$CMP BAS21
+D 250V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
+$CMP BAT42W-V
+D 30V 0.2A Small Signal Schottky diode, SOD-123
+K diode Schottky
+F http://www.vishay.com/docs/85660/bat42.pdf
+$ENDCMP
+#
+$CMP BAT43W-V
+D 30V 0.2A Small Signal Schottky diode, SOD-123
+K diode Schottky
+F http://www.vishay.com/docs/85660/bat42.pdf
 $ENDCMP
 #
 $CMP BAT54C
@@ -127,10 +163,254 @@ $CMP BSS84
 F https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LBSS84LT1G_C8492.pdf
 $ENDCMP
 #
+$CMP BUK7M10-40EX
+D 56A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M10-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M12-40EX
+D 48A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 12mOhm Ron, 15.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M12-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M12-60EX
+D 53A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 12mOhm Ron, 24.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M12-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M15-60EX
+D 42.9A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 15mOhm Ron, 19.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M17-80EX
+D 43A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 17mOhm Ron, 29.6nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M17-80E.pdf
+$ENDCMP
+#
+$CMP BUK7M19-60EX
+D 35.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 19mOhm Ron, 17.3nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M19-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M21-40EX
+D 33A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 21mOhm Ron, 10.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M21-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M22-80EX
+D 37A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 22mOhm Ron, 23.9nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M22-80E.pdf
+$ENDCMP
+#
+$CMP BUK7M27-80EX
+D 30A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 27mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M27-80E.pdf
+$ENDCMP
+#
+$CMP BUK7M33-60EX
+D 24A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 33mOhm Ron, 10.9nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M33-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M42-60EX
+D 20A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 42mOhm Ron, 9nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M42-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M45-40EX
+D 19A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 45mOhm Ron, 6.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M45-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M67-60EX
+D 14A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 67mOhm Ron, 6.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M67-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M6R3-40EX
+D 70A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 6.3mOhm Ron, 28.1nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M6R3-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M8R0-40EX
+D 69A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 8mOhm Ron, 23.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M9R9-60EX
+D 60A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 9.9mOhm Ron, 30.1nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M10-30EX
+D 54A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 7.8mOhm Ron, 12.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M10-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M11-40EX
+D 53A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 9mOhm Ron, 13.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M11-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M12-60EX
+D 54A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 11mOhm Ron, - Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M12-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M120-100EX
+D 11.5A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 119mOhm Ron, 8.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M120-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M14-40EX
+D 44A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 11mOhm Ron, 11.3nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M14-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M15-60EX
+D 47A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 13mOhm Ron, 17nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M15-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M156-100EX
+D 9.3A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 150mOhm Ron, 7.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M156-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M17-30EX
+D 37A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 14mOhm Ron, 8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M17-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M19-60EX
+D 38A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 17mOhm Ron, 13.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M19-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M23-80EX
+D 37A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 20mOhm Ron, 20nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M23-80E.pdf
+$ENDCMP
+#
+$CMP BUK9M24-40EX
+D 30A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 20mOhm Ron, 7.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M24-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M24-60EX
+D 32A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 21mOhm Ron, 12.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M24-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M28-80EX
+D 33A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 25mOhm Ron, 16.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M28-80E.pdf
+$ENDCMP
+#
+$CMP BUK9M34-100EX
+D 29A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 34mOhm Ron, 24.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M34-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M35-80EX
+D 26A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 31mOhm Ron, 13.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M35-80E.pdf
+$ENDCMP
+#
+$CMP BUK9M42-60EX
+D 22A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 37mOhm Ron, 8.3nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M42-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M43-100EX
+D 25A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 43mOhm Ron, 20.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M43-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M52-40EX
+D 17.6A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 40mOhm Ron, 4.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M52-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M5R2-30EX
+D 70A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 4.1mOhm Ron, 22.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M5R2-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M6R6-30EX
+D 70A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 5.3mOhm Ron, 18nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M6R6-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M7R2-40EX
+D 70A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 5.8mOhm Ron, 19.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M7R2-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M85-60EX
+D 12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M9R1-40EX
+D 64A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 7.3mOhm Ron, 16.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M9R1-40E.pdf
+$ENDCMP
+#
 $CMP Barrel_Jack_OD5.5_ID2.5
 D Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Through Hole, Right Angle
 K DC power barrel jack connector
 F https://www.cui.com/product/resource/pj-202b.pdf
+$ENDCMP
+#
+$CMP CAN_MCP2551-I-SN
+D CAN 1/1 4.5V ~ 5.5V SOIC-8_150MIL ROHS
+F https://datasheet.lcsc.com/szlcsc/Microchip-Tech-MCP2551-I-SN_C7376.pdf
+$ENDCMP
+#
+$CMP CH340T(SSOP20W)
+D USB 2MBPS 3.3V, 5V SSOP-20_208MIL ROHS
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/1132603/WCH/CH340T.html
 $ENDCMP
 #
 $CMP CLAMP-SP0502BAHT
@@ -144,17 +424,14 @@ F http://nichicon-us.com/english/products/pdfs/e-uhe.pdf
 $ENDCMP
 #
 $CMP C_0.1uF
-F https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 16V 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf
 $ENDCMP
 #
 $CMP C_1000uF
-D  1000µF 25V Aluminum Electrolytic Capacitors Radial, Can 5000 Hrs @ 105°C 	1000µF 25V Aluminum Electrolytic Capacitors Radial, Can 5000 Hrs @ 105°C
+D 1000UF ±20% 25V SMD,12.5X13.5MM ALUMINUM ELECTROLYTIC CAPACITORS - SMD ROHS
 K cap capacitor
-F https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1E102
-$ENDCMP
-#
-$CMP C_1000uF_DEL
-F https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1E102
+F https://datasheet.lcsc.com/szlcsc/1912111437_PANASONIC-EEEHD1E102AQ_C401847.pdf
 $ENDCMP
 #
 $CMP C_100nF_0402
@@ -167,8 +444,18 @@ D 1µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B104KCFNNNE_C1945.pdf
 $ENDCMP
 #
+$CMP C_100pF
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG101J500NT_C1546.pdf
+$ENDCMP
+#
+$CMP C_10nF
+D 10NF 100V 0805
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B103KCANNNC_C18741.pdf
+$ENDCMP
+#
 $CMP C_10uF
-F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 25V 0805 ROHS
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf
 $ENDCMP
 #
 $CMP C_10uF_Ta
@@ -196,8 +483,8 @@ F https://datasheet.lcsc.com/szlcsc/YAGEO-CC1206KKX7RDBB102_C23631.pdf
 $ENDCMP
 #
 $CMP C_1uF
-D 1µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
-F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 1UF 25V 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
 $ENDCMP
 #
 $CMP C_1uF_1206
@@ -205,8 +492,18 @@ D 1UF 100V 1206
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B105KCHNNNE_C13832.pdf
 $ENDCMP
 #
+$CMP C_2.2nF
+D 2.2NF ±10% 2KV X7R 1206 MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT ROHS
+F https://datasheet.lcsc.com/szlcsc/1811141110_FH-Guangdong-Fenghua-Advanced-Tech-1206B222K202NT_C41018.pdf
+$ENDCMP
+#
 $CMP C_2.2uF_0402
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A225MQ5NSNC_C12530.pdf
+$ENDCMP
+#
+$CMP C_220nF
+D 1µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B224KO5NNNC_C16772.pdf
 $ENDCMP
 #
 $CMP C_22uF
@@ -217,35 +514,67 @@ $CMP C_22uF_0805
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf
 $ENDCMP
 #
+$CMP C_22uF_63V
+F https://datasheet.lcsc.com/szlcsc/Lelon-VEJ220M1JTR-0607_C134761.pdf
+$ENDCMP
+#
 $CMP C_27pF_0402
 F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG270J500NTN_C1557.pdf
 $ENDCMP
 #
 $CMP C_4.7uF
-F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KA8NQNC_C69335.pdf
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 4.7UF 25V 0805 ROHS
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf
 $ENDCMP
 #
 $CMP C_470nF
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf
 $ENDCMP
 #
+$CMP C_470pF
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 470PF 50V 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402B471K500NT_C1537.pdf
+$ENDCMP
+#
 $CMP C_470uF
-D 470µF 25V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C
+D 470UF ±20% 35V SMD,10X10.2MM ALUMINUM ELECTROLYTIC CAPACITORS - SMD ROHS
 K cap capacitor
-F https://katalog.we-online.de/pbs/datasheet/860020474014.pdf
+F https://datasheet.lcsc.com/szlcsc/1809192324_Honor-Elec-RVT1V471M1010_C3350.pdf
+$ENDCMP
+#
+$CMP C_47nF
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 47NF 50V 0603 ROHS
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf
 $ENDCMP
 #
 $CMP C_47pF
-F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C470JB8NNNC_C1671.pdf
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 47PF 50V 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG470J500NT_C1567.pdf
 $ENDCMP
 #
 $CMP C_47uF
-F https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R60G476ME15D/490-13246-1-ND/5877454
+D 47UF ±20% 25V X5R 1210 MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT ROHS
+F https://datasheet.lcsc.com/szlcsc/2007130932_Taiyo-Yuden-TMK325ABJ476MM-P_C90142.pdf
+$ENDCMP
+#
+$CMP C_47uF_Al
+F https://datasheet.lcsc.com/szlcsc/Lelon-VES470M1HTR-0607_C108053.pdf
+$ENDCMP
+#
+$CMP C_47uF_Ta
+D Polarized capacitor
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/PANASONIC-16TQC47MYFD_C79107.pdf
 $ENDCMP
 #
 $CMP C_560pF
 D Multilayer Ceramic Capacitors MLCC - SMD/SMT 0201 560pF 25volts C0G 5%
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B561KB8NNNC_C84721.pdf
+$ENDCMP
+#
+$CMP C_6.8nF
+D MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 6.8NF 50V 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402B682K500NT_C1542.pdf
 $ENDCMP
 #
 $CMP C_680uF
@@ -257,16 +586,16 @@ D U.FL (UMCC), AMC4 Connector Jack, Male Pin 50Ohm Surface Mount Solder
 F https://www.amphenolrf.com/downloads/dl/file/id/8661/product/9127/a_4ja_customer_drawing.pdf
 $ENDCMP
 #
-$CMP Conn_01x04
-D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F https://www.aliexpress.com/item/32698854423.html?spm=a2g0o.cart.0.0.71363c00a7RDMZ&mp=1
-$ENDCMP
-#
 $CMP Conn_01x12
 D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F https://www.aliexpress.com/item/32698854423.html?spm=a2g0o.cart.0.0.71363c00a7RDMZ&mp=1
+$ENDCMP
+#
+$CMP Conn_IDE_40
+D Connector Header Through Hole 40 position 0.100" (2.54mm)
+K connector
+F https://s3.amazonaws.com/catalogspreads-pdf/PAGE122%20.100%20SBH11%20SERIES%20MALE%20BOX%20HDR%20ST%20RA%20SMT.pdf
 $ENDCMP
 #
 $CMP Crystal_12Mhz
@@ -274,13 +603,37 @@ F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322512MSB4SI_C9002.pdf
 $ENDCMP
 #
 $CMP D_1N5819
-F https://datasheet.lcsc.com/szlcsc/Guangdong-Hottech-1N5819WS_C191023.pdf
+F https://datasheet.lcsc.com/szlcsc/1903051130_MDD-Jiangsu-Yutai-Elec-B5819WS_C64886.pdf
 $ENDCMP
 #
 $CMP D_1N5819HW
-D Diode Schottky 40V 1A Surface Mount SOD-123
+D SCHOTTKY BARRIER DIODES (SBD) SOD-123 ROHS
 K diode Schottky
-F http://www.diodes.com/_files/datasheets/ds23022.pdf
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-1N5819HW-7-F_C82544.pdf
+$ENDCMP
+#
+$CMP D_Bridge_+-AA
+D Diode bridge, +ve/-ve/AC/AC
+K rectifier ACDC
+F https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-HD01-T_C52151.pdf
+$ENDCMP
+#
+$CMP D_MBRS540T3G
+D 40V 0.35A Small Signal Schottky Diode, SOD-123
+K diode Schottky
+F www.st.com/resource/en/datasheet/bat48.pdf
+$ENDCMP
+#
+$CMP D_MURA120
+D Diode
+K diode
+F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-MURA120T3G_C111832.pdf
+$ENDCMP
+#
+$CMP D_SMAJ58A
+D Schottky diode
+K diode Schottky
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Ruilongyuan-Elec-SMAJ58A_C10762.pdf
 $ENDCMP
 #
 $CMP D_Zener
@@ -307,6 +660,30 @@ $ENDCMP
 #
 $CMP FB
 F https://datasheet.lcsc.com/szlcsc/1810231132_Sunlord-PZ3216U300-6R0TF_C316417.pdf
+$ENDCMP
+#
+$CMP FDC86244
+D 2.3A Id, 150V Vds, N-Channel MOSFET, 144mOhm Ron, SuperSOT-6
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDC86244-D.pdf
+$ENDCMP
+#
+$CMP FODM217B
+D DC Optocoupler, Vce 80V, CTR 130-260%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM217C
+D DC Optocoupler, Vce 80V, CTR 200-400%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM217D
+D DC Optocoupler, Vce 80V, CTR 300-600%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
 $ENDCMP
 #
 $CMP FT231XS
@@ -349,6 +726,12 @@ $CMP L_33uH
 F https://datasheet.lcsc.com/szlcsc/Sunlord-SWRB1205S-330MT_C169386.pdf
 $ENDCMP
 #
+$CMP L_4.7uH
+D Inductor
+K inductor choke coil reactor magnetic
+F https://datasheet.lcsc.com/szlcsc/1908262302_Sunlord-MWSA0503S-4R7MT_C408410.pdf
+$ENDCMP
+#
 $CMP MAX11605
 F https://datasheets.maximintegrated.com/en/ds/MAX11600-MAX11605.pdf
 $ENDCMP
@@ -362,6 +745,54 @@ $ENDCMP
 $CMP MAX98091
 D IC CODEC STEREO AUDIO 48TQFN
 F https://www.digikey.com/product-detail/en/maxim-integrated/MAX98091ETM/MAX98091ETM-ND/5049990
+$ENDCMP
+#
+$CMP MBR0520
+D 20V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0520LT
+D 20V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF
+$ENDCMP
+#
+$CMP MBR0530
+D 30V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0540
+D 40V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0550
+D 50V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0560
+D 60V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0570
+D 70V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR0580
+D 80V 0.5A Schottky Power Rectifier Diode, SOD-123
+K diode Schottky
+F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
 $ENDCMP
 #
 $CMP MCP23017_SS
@@ -423,6 +854,16 @@ K connector
 F https://www.molex.com/webdocs/datasheets/pdf/en-us/0039299243_PCB_HEADERS.pdf
 $ENDCMP
 #
+$CMP OPTO-FOD817A
+D DC Optocoupler, Vce 80V, CTR 80-160%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP Opto_TLP521
+F https://datasheet.lcsc.com/szlcsc/2009251934_Isocom-Components-TLP521-2SMT-R_C722233.pdf
+$ENDCMP
+#
 $CMP PESD1CAN-UX
 D TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package
 K usb esd protection suppression transient
@@ -431,6 +872,12 @@ $ENDCMP
 #
 $CMP PFET
 F https://datasheet.lcsc.com/szlcsc/Will-Semicon-WPM2015-3-TR_C213159.pdf
+$ENDCMP
+#
+$CMP Q_DMHC4035LSD
+D 17A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 46mOhm Ron, 6nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://datasheet.lcsc.com/szlcsc/1912111437_Diodes-Incorporated-DMHC4035LSD-13_C412517.pdf
 $ENDCMP
 #
 $CMP Q_DMN3016
@@ -443,6 +890,12 @@ $CMP Q_DMT3020
 D 2-channel , N-MOSFET transistor, gate/drain/source
 K 2-channel transistor NMOS N-MOS N-MOSFET
 F https://datasheet.lcsc.com/szlcsc/1808280417_Diodes-Incorporated-DMT3020LSD-13_C268033.pdf
+$ENDCMP
+#
+$CMP Q_FDC2512
+D 1.4A Id, 150V Vds, N-Channel MOSFET, 425mOhm Ron, SuperSOT-6
+K N-Channel MOSFET
+F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-FDC2512_C154516.pdf
 $ENDCMP
 #
 $CMP Q_IRF7907TRPBF
@@ -462,9 +915,15 @@ F https://datasheet.lcsc.com/szlcsc/Leshan-Radio-LMBT3904DW1T1G_C131781.pdf
 $ENDCMP
 #
 $CMP Q_NPN_BEC
-D RF Transistor NPN 25V 650MHz 350mW Surface Mount SOT-23-3
+D TRANSISTORS (NPN/PNP) NPN 1.5A 25V SOT-23(SOT-23-3) ROHS
 K RF TRANS NPN 25V 650MHZ SOT23-3
-F https://www.onsemi.com/pub/Collateral/KST10-D.pdf
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-SS8050_C2150.pdf
+$ENDCMP
+#
+$CMP Q_PNP_BEC
+D TRANSISTORS (NPN/PNP) PNP 1.5A 25V SOT-23(SOT-23-3) ROHS
+K transistor PNP
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-SS8550_C8542.pdf
 $ENDCMP
 #
 $CMP Q_SS8050
@@ -497,15 +956,31 @@ $CMP REG_3V3
 F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NCP1117DT33T5G_C152529.pdf
 $ENDCMP
 #
+$CMP REG_AMS1117-3.3
+D LOW DROPOUT REGULATORS(LDO) POSITIVE FIXED 1.3V @ 800MA 15V 3.3V 1A SOT-223 ROHS
+F https://datasheet.lcsc.com/szlcsc/1811201117_Advanced-Monolithic-Systems-AMS-AMS1117-3-3_C6186.pdf
+$ENDCMP
+#
+$CMP RJ45_JK0-0177NL
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+K 8P8C RJ female connector
+F https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf
+$ENDCMP
+#
 $CMP RJ45_LED
 D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
 K single port ethernet transformer poe center-tap
 F https://abracon.com/Magnetics/lan/ARJP11A.PDF
 $ENDCMP
 #
+$CMP R_0.56
+D 0.56OHMS ±1% 1/10W 0603
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF560LT5E_C27859.pdf
+$ENDCMP
+#
 $CMP R_100
-D 100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
-F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B561KB8NNNC_C84721.pdf
+D CHIP RESISTOR - SURFACE MOUNT 100OHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1000TCE_C25076.pdf
 $ENDCMP
 #
 $CMP R_100K
@@ -528,6 +1003,11 @@ $CMP R_12.1K_0402
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1212TCE_C25852.pdf
 $ENDCMP
 #
+$CMP R_13.3K
+D CHIP RESISTOR - SURFACE MOUNT 13.3KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1332TCE_C122547.pdf
+$ENDCMP
+#
 $CMP R_1K
 F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ102V/P1.0KGDKR-ND/577615
 $ENDCMP
@@ -537,15 +1017,21 @@ F https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-
 $ENDCMP
 #
 $CMP R_2.2K
-F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2201T5E_C4190.pdf
+D CHIP RESISTOR - SURFACE MOUNT 2.2KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2201TCE_C25879.pdf
 $ENDCMP
 #
 $CMP R_20K
-F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2002T5E_C4184.pdf
+D CHIP RESISTOR - SURFACE MOUNT 20KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2002TCE_C25765.pdf
 $ENDCMP
 #
 $CMP R_220_0402
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2200TCE_C25091.pdf
+$ENDCMP
+#
+$CMP R_24.9K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2492T5E_C25962.pdf
 $ENDCMP
 #
 $CMP R_25K5
@@ -553,11 +1039,36 @@ F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf
 $ENDCMP
 #
 $CMP R_27
-F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2700T5E_C22966.pdf
+D CHIP RESISTOR - SURFACE MOUNT 27OHMS ±1% 1/10W 0603 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF270JT5E_C25190.pdf
+$ENDCMP
+#
+$CMP R_2K
+D CHIP RESISTOR - SURFACE MOUNT 2KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf
 $ENDCMP
 #
 $CMP R_2K2_0402
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf
+$ENDCMP
+#
+$CMP R_3.01K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF3011TCE_C25889.pdf
+$ENDCMP
+#
+$CMP R_4.7K
+D CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4701TCE_C25900.pdf
+$ENDCMP
+#
+$CMP R_402
+D CHIP RESISTOR - SURFACE MOUNT 402OHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4020TCE_C41042.pdf
+$ENDCMP
+#
+$CMP R_41.2K
+D CHIP RESISTOR - SURFACE MOUNT 41.2KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4122TCE_C26978.pdf
 $ENDCMP
 #
 $CMP R_47.5k
@@ -568,6 +1079,10 @@ $CMP R_47K_0402
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF4702TCE_C25792.pdf
 $ENDCMP
 #
+$CMP R_49.9K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4992T5E_C23184.pdf
+$ENDCMP
+#
 $CMP R_49.9_0402
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF499JTCE_C25120.pdf
 $ENDCMP
@@ -576,18 +1091,45 @@ $CMP R_4K7
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4701T5E_C23162.pdf
 $ENDCMP
 #
+$CMP R_59K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF5902TCE_C32297.pdf
+$ENDCMP
+#
 $CMP R_6.5K
 D 6.49 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film
 K Resistors, Chip Resistor
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3652T5E_C23029.pdf
 $ENDCMP
 #
+$CMP R_6.8K
+D CHIP RESISTOR - SURFACE MOUNT 6.8KOHMS ±1% 1/10W 0603 ROHS
+K Resistors, Chip Resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF6801T5E_C23212.pdf
+$ENDCMP
+#
 $CMP R_620_1206
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F6200T5E_C17973.pdf
 $ENDCMP
 #
+$CMP R_63.4
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF6342TCE_C38606.pdf
+$ENDCMP
+#
+$CMP R_69.8K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF6982TCE_C26985.pdf
+$ENDCMP
+#
+$CMP R_7.15K
+D CHIP RESISTOR - SURFACE MOUNT 7.15KOHMS ±1% 1/16W 0402 ROHS
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF7151TCE_C270586.pdf
+$ENDCMP
+#
 $CMP R_70K
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4703T5E_C23178.pdf
+$ENDCMP
+#
+$CMP R_80.6K
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF8062TCE_C25921.pdf
 $ENDCMP
 #
 $CMP R_8K2_0402
@@ -652,6 +1194,36 @@ $CMP TLP291-4
 D Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16
 K NPN DC Quad Optocoupler
 F https://datasheet.lcsc.com/szlcsc/TOSHIBA-TLP291-4-GB-TP-E-T_C60900.pdf
+$ENDCMP
+#
+$CMP TLV431ACDBZR
+D Shunt Regulator, SOT-23
+K diode device shunt regulator
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-TLV431ACDBZR_C165142.pdf
+$ENDCMP
+#
+$CMP TPS23754-TRANSFORMER
+F https://www.coilcraft.com/getmedia/82697be8-7a7c-4b54-a33e-3e538a882584/ja4372.pdf
+$ENDCMP
+#
+$CMP TPS23754PWP-1
+F https://www.ti.com/lit/gpn/tps23754
+$ENDCMP
+#
+$CMP Temp_Hum_HDC1080DMBR
+F https://datasheet.lcsc.com/szlcsc/1810271112_Texas-Instruments-HDC1080DMBR_C82227.pdf
+$ENDCMP
+#
+$CMP Terminal_01x03
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.aliexpress.com/item/32698854423.html?spm=a2g0s.9042311.0.0.24384c4d17Okx6
+$ENDCMP
+#
+$CMP Terminal_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F https://www.aliexpress.com/item/32698854423.html?spm=a2g0o.cart.0.0.71363c00a7RDMZ&mp=1
 $ENDCMP
 #
 $CMP USB-AUTO
